@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration_form</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contactform</title>
+</head>
+<body>
+    <h1>Register Here!</h1>    
+<div class="container">
+  <form  method ="get" action="action_page.php" target="_blank">
+
+    <label for="fname"> First Name </label><br>
+    <input type="text" id="fname" name="firstname" placeholder="Your firstname"><br>
+
+    <label for="lname">Last Name</label><br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name"><br>
+    
+    <label for="dateofbirth"> Date of Birth:</label>&nbsp;&nbsp;
+    <input type="date" id="dateofbirth" name="dateofbirth" required><br><br>
+
+    <label for="gender">Gender</label><br><br>
+    <input type="radio" name="gender" value="male" style="font-size: larger;"><b> Male</b>
+    <input type="radio" name="gender" value="female"style="font-size: larger;"> <b>Female </b><br><br>
+
+    <label for="Phonenumber">Phone number</label><br><br>
+    <input type="integer" id="phno" name="Phonenumber" maxlength="10" placeholder="Enter your Phone number" style="height: 30px;"><br><br>
+
+ 
+    <label for="email">Email</label>;<br><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email address"  required><br><br>
+
+    <label for="pswrd">Password</label><br><br>
+    <input type="password"  placeholder="Enter your password" id="pswrd" name="pswrd"  required><br>
+
+    <label for="pswrd-repeat">Repeat Password</label><br><br>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required><br>
+
+    <label>Address</label> <br><br>
+    <textarea name="Address" rows="4" cols="40"></textarea><br><br>
+
+    <div class="chkbox">
+    <input id="checkbox" type="checkbox" />
+    <label for="checkbox"> I agree to these <a href="#">Terms and Conditions</a>.</label>
+    </div>
+    <button type="submit" class="registerbutton">Register</button>
+
+    <div class="signin">
+    <p>Already have an account? <a href="#">Sign in</a></p>
+
+
+    
+  </form>
+</body>
+</html>

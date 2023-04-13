@@ -1,0 +1,109 @@
+h1{
+    text-align:right;
+    font-size: 50px;
+    margin-right: 250px;
+    margin-top: auto;
+    color: palevioletred;
+}
+body{
+    background-image: url('https://i.pinimg.com/564x/78/5b/ad/785bad8c7fec0d08e8e16bee13cc9087.jpg');
+    background-size:cover;
+    width: 100%;
+    size: flex;
+}
+label{
+    font-size: 25px;
+    font-weight:bolder;
+    font-variant: initial;
+}
+
+.container {
+  padding: 16px;
+    margin-left: 750px;
+    margin-right: 400px;
+    width: 45%;
+    background-color: #f2f2f2;
+    padding: 25px;
+    opacity: 0.9;
+    background-color: lightblue;
+    margin-top:0px;
+    margin-bottom: 100px;
+    border-color: #16759e;  
+   
+}
+
+
+input[type=text], input[type=password] {
+  width: 75%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background:lightcyan;
+}
+
+input[type=text]:focus, input[type=password]:focus , input[type=integer]:focus, input[type=email]:focus , input[type=date]:focus
+{
+  background-color: whitesmoke;
+  outline: none;
+}
+
+input[type=date]{
+    padding:15px;
+    background:lightcyan;
+}
+input[type=integer]{
+    padding: 10px;
+    width: 40%;
+    background:lightcyan;
+}
+input[type=email]{
+    padding: 10px;
+    width: 40%;
+    background:lightcyan;
+}
+textarea{
+    background:lightcyan;
+}
+
+textarea:focus{
+  background-color: whitesmoke;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbutton {
+  background-color: #16759e;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbutton:hover {
+  background-color:#45a049;
+}
+a{
+  color: dodgerblue;
+}
+
+
+
+.signin {
+ 
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500px;
+}
+
+.container1{
+  margin-left: 0%;
+}
